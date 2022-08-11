@@ -12,15 +12,15 @@ https://www.kaggle.com/datasets/datasnaek/chess
 
 **Data**
 
-The data used to train the model was downloaded from [lichess.org](https://database.lichess.org/). We of course will need to process this data in a format that TensorFlow can understand.
+The data used to train the model was downloaded from [lichess.org](https://database.lichess.org/). We of course will need to process this data in a format that Machine Learning Algorithms Models can understand.
 
-After downloading the dataset from lichess and decompressing it, we need to remove the unnecessary information such as player names, event names, time stamps, variations, comments, etc. The only information we want is the *final* result along with some statistics of the game.
+After downloading the dataset from lichess and decompressing it, we need to remove the unnecessary information such as player names, event names, time stamps, variations, comments, etc. The only information we want is the *final* result along with some statistics of the games.
 
-**Training**
+## Training
 
 The model was trained on 20,000 chess games. After training, the model achieved accuracy of ` 89.00% `.
 
-**Results**
+## Results
 
 ![image](https://user-images.githubusercontent.com/71164642/184107281-b2db0aed-0dec-4101-b358-e8036cc31826.png)
 
